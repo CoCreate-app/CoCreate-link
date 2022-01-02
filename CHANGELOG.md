@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/CoCreate-app/CoCreate-link/compare/v1.0.0...v1.0.1) (2022-01-02)
+
+
+### Bug Fixes
+
+* add @cocreate/pass ([ef84090](https://github.com/CoCreate-app/CoCreate-link/commit/ef840904dee838d11fe555ab586189fd7a20d756))
+
 # 1.0.0 (2022-01-02)
 
 
