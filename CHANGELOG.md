@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/CoCreate-app/CoCreate-link/compare/v1.0.5...v1.0.6) (2022-02-16)
+
+
+### Bug Fixes
+
+* update action param to name ([2408b6e](https://github.com/CoCreate-app/CoCreate-link/commit/2408b6efbcf85a335e055dcdbc8f9c4253440c5f))
+
 ## [1.0.5](https://github.com/CoCreate-app/CoCreate-link/compare/v1.0.4...v1.0.5) (2022-02-10)
 
 
