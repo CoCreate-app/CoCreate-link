@@ -89,7 +89,7 @@ function preventDefault(e) {
 }
 
 action.init({
-	action: "disableLinks",
+	name: "disableLinks",
 	endEvent: "disableLinks",
 	callback: (btn, data) => {
 		disableLinks(btn);
@@ -97,7 +97,7 @@ action.init({
 });
 
 action.init({
-	action: "enableLinks",
+	name: "enableLinks",
 	endEvent: "enableLinks",
 	callback: (btn, data) => {
 		enableLinks(btn);
