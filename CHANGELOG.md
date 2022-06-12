@@ -1,3 +1,11 @@
+## [1.0.12](https://github.com/CoCreate-app/CoCreate-link/compare/v1.0.11...v1.0.12) (2022-06-12)
+
+
+### Bug Fixes
+
+* update dependencies ([5f8e7f4](https://github.com/CoCreate-app/CoCreate-link/commit/5f8e7f4b06abaff28bc9ba22c15472825fd34f5b))
+* update docs css document_id ([20cd9db](https://github.com/CoCreate-app/CoCreate-link/commit/20cd9db4f2de8428d6399deb51a39ed166806faa))
+
 ## [1.0.11](https://github.com/CoCreate-app/CoCreate-link/compare/v1.0.10...v1.0.11) (2022-05-23)
 
 
