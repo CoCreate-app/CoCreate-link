@@ -1,3 +1,10 @@
+## [1.0.16](https://github.com/CoCreate-app/CoCreate-link/compare/v1.0.15...v1.0.16) (2022-09-29)
+
+
+### Bug Fixes
+
+* config renameed to CoCreateConfig ([20cc28a](https://github.com/CoCreate-app/CoCreate-link/commit/20cc28ae54be6f58d096f01eddb5ea1255d7ebf7))
+
 ## [1.0.15](https://github.com/CoCreate-app/CoCreate-link/compare/v1.0.14...v1.0.15) (2022-09-01)
 
 
