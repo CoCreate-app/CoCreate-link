@@ -1,3 +1,10 @@
+## [1.0.24](https://github.com/CoCreate-app/CoCreate-link/compare/v1.0.23...v1.0.24) (2022-10-02)
+
+
+### Bug Fixes
+
+* minor bug fixes ([296c847](https://github.com/CoCreate-app/CoCreate-link/commit/296c847ac14e761f43e0170431a38db919bfc328))
+
 ## [1.0.23](https://github.com/CoCreate-app/CoCreate-link/compare/v1.0.22...v1.0.23) (2022-10-02)
 
 
