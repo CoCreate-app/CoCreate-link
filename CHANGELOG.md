@@ -1,3 +1,10 @@
+## [1.0.23](https://github.com/CoCreate-app/CoCreate-link/compare/v1.0.22...v1.0.23) (2022-10-02)
+
+
+### Bug Fixes
+
+* bump @cocreate/hosting and @cocreate/socket-client ([c2035e2](https://github.com/CoCreate-app/CoCreate-link/commit/c2035e2b84a425fc69c6834c2962a0b9e2c96a08))
+
 ## [1.0.22](https://github.com/CoCreate-app/CoCreate-link/compare/v1.0.21...v1.0.22) (2022-10-01)
 
 
