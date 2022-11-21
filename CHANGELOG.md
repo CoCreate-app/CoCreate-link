@@ -1,3 +1,10 @@
+## [1.0.27](https://github.com/CoCreate-app/CoCreate-link/compare/v1.0.26...v1.0.27) (2022-11-21)
+
+
+### Bug Fixes
+
+* replaced document_id with document._id ([e1a96a3](https://github.com/CoCreate-app/CoCreate-link/commit/e1a96a35a9ffd9ab5268b1a3e5a3205e0cdbe611))
+
 ## [1.0.26](https://github.com/CoCreate-app/CoCreate-link/compare/v1.0.25...v1.0.26) (2022-11-21)
 
 
