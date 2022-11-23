@@ -60,7 +60,7 @@ function getDocument(btn) {
 	let Document = document;
 	let targetSelector = btn.getAttribute('link-target');
 	if (targetSelector) {
-		if(targetSelector.indexOf(';') !== -1) {
+		if (targetSelector.indexOf(';') !== -1) {
 			let documentSelector;
 			[documentSelector, targetSelector] = targetSelector.split(';');
 			let frame = document.querySelector(documentSelector);
