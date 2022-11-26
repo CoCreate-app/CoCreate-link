@@ -7,21 +7,25 @@ function init() {
 	document.addEventListener('click', linkEvent, true);
 }
 
-function linkEvent() {
-		const target = event.target.closest('[href], [target], [pass_to]');
-		if (event.target.closest('button') && !target) {
-			event.preventDefault();
-		}
-		if (!target) return;
-		if (target.hasAttribute('actions')) return;
-		if (target.closest('[actions]')) return;
-		runLink(target);
+function linkEvent(event) {
+	const target = event.srcElement.closest('[href], [target], [pass_to]');
+	if (target && target.download)
+		return
+	if (event.target.closest('button') && !target) {
+		event.preventDefault();
+	}
+	if (!target) return;
+	if (target.hasAttribute('actions')) return;
+	if (target.closest('[actions]')) return;
+	runLink(target, event);
 }
 
 
-function runLink(target) {
-	if (!target) return;
-	if (document.link.link) return;
+function runLink(target, event) {
+	if (!target) 
+		return;
+	if (!document.link.islink || document.link.islink == 'false')
+		return;
 	const href = target.getAttribute('href');
 	pass._setPassAttributes(target);			
 
