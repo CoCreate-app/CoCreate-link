@@ -30,7 +30,8 @@ function runLink(target, event) {
 	pass._setPassAttributes(target);			
 
 	if (target.getAttribute('target') === 'modal') {
-		event.preventDefault();
+		if (event)
+			event.preventDefault();
 		if (typeof CoCreate.modal !== 'undefined') {
 			CoCreate.modal.open(target);
 		}
@@ -39,7 +40,8 @@ function runLink(target, event) {
 		}
 	}
 	else if (href) {
-		event.preventDefault();
+		if (event)
+			event.preventDefault();
 		openLink(target);
 	}
 
