@@ -1,3 +1,10 @@
+## [1.1.10](https://github.com/CoCreate-app/CoCreate-link/compare/v1.1.9...v1.1.10) (2022-12-12)
+
+
+### Bug Fixes
+
+* bump dependencies ([b2e1f35](https://github.com/CoCreate-app/CoCreate-link/commit/b2e1f35366aa2a9daa0cc42088a3ab19f85b6520))
+
 ## [1.1.9](https://github.com/CoCreate-app/CoCreate-link/compare/v1.1.8...v1.1.9) (2022-12-11)
 
 
