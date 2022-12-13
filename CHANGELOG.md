@@ -1,3 +1,10 @@
+## [1.1.12](https://github.com/CoCreate-app/CoCreate-link/compare/v1.1.11...v1.1.12) (2022-12-13)
+
+
+### Bug Fixes
+
+* removed un used devDependencies ([d4d5238](https://github.com/CoCreate-app/CoCreate-link/commit/d4d523871cc24090b56ef992dbb4a01dbde5cbb2))
+
 ## [1.1.11](https://github.com/CoCreate-app/CoCreate-link/compare/v1.1.10...v1.1.11) (2022-12-13)
 
 
