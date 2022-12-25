@@ -1,3 +1,11 @@
+## [1.1.19](https://github.com/CoCreate-app/CoCreate-link/compare/v1.1.18...v1.1.19) (2022-12-25)
+
+
+### Bug Fixes
+
+* bump dependencies ([4b1317d](https://github.com/CoCreate-app/CoCreate-link/commit/4b1317dc4000970d24831b5d1bcab91d2f78f65d))
+* removed pass and modal functions ([eacbeec](https://github.com/CoCreate-app/CoCreate-link/commit/eacbeecff9e63f78d34d90002daba49abd585772))
+
 ## [1.1.18](https://github.com/CoCreate-app/CoCreate-link/compare/v1.1.17...v1.1.18) (2022-12-23)
 
 
