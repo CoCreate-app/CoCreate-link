@@ -1,6 +1,5 @@
 /*global CoCreate*/
 import action from '@cocreate/actions';
-import pass from "@cocreate/pass";
 
 function init() {
 	document.link = {islink: 'true'};
@@ -8,7 +7,7 @@ function init() {
 }
 
 function linkEvent(event) {
-	const target = event.srcElement.closest('[href], [target], [pass_to]');
+	const target = event.srcElement.closest('[href], [target]');
 	if (target && target.download)
 		return
 	if (event.target.closest('button') && !target) {
@@ -22,24 +21,11 @@ function linkEvent(event) {
 
 
 function runLink(target, event) {
-	if (!target) 
+	if (!target || !document.link.islink || document.link.islink == 'false')
 		return;
-	if (!document.link.islink || document.link.islink == 'false')
-		return;
-	const href = target.getAttribute('href');
-	pass._setPassAttributes(target);			
 
-	if (target.getAttribute('target') === 'modal') {
-		if (event)
-			event.preventDefault();
-		if (typeof CoCreate.modal !== 'undefined') {
-			CoCreate.modal.open(target);
-		}
-		else if (href) {
-			openLink(target);
-		}
-	}
-	else if (href) {
+	const href = target.getAttribute('href');
+	if (href) {
 		if (event)
 			event.preventDefault();
 		openLink(target);
