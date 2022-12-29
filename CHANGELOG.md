@@ -1,3 +1,15 @@
+# [1.2.0](https://github.com/CoCreate-app/CoCreate-link/compare/v1.1.20...v1.2.0) (2022-12-29)
+
+
+### Bug Fixes
+
+* bump dependencies ([e5c496e](https://github.com/CoCreate-app/CoCreate-link/commit/e5c496eb093ba1f32687d8f4dfe7ea2f12d04eae))
+
+
+### Features
+
+* support for all target types ([3842e97](https://github.com/CoCreate-app/CoCreate-link/commit/3842e978a6d78f8e6cf0cd9c0309dca1c89aa912))
+
 ## [1.1.20](https://github.com/CoCreate-app/CoCreate-link/compare/v1.1.19...v1.1.20) (2022-12-27)
 
 
