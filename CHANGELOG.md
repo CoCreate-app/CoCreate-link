@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/CoCreate-app/CoCreate-link/compare/v1.2.0...v1.2.1) (2022-12-30)
+
+
+### Bug Fixes
+
+* if target not defined default to _self ([63f8b96](https://github.com/CoCreate-app/CoCreate-link/commit/63f8b961575907b5086c2b685a464f18c21c8340))
+
 # [1.2.0](https://github.com/CoCreate-app/CoCreate-link/compare/v1.1.20...v1.2.0) (2022-12-29)
 
 
