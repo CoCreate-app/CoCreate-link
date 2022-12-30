@@ -38,7 +38,9 @@ function openLink(link) {
 	let target = link.getAttribute('target');
 
 	// ToDo: attributes to set height, width, left, top, scrollbars, popup, noopener, noreferrer
-	if (target == "_window") 
+	if (!target) 
+		window.open(href, '_self');
+	else if (target == "_window") 
 		window.open(href, '_blank', 'location=yes,height=570,width=520,scrollbars=yes,status=yes');
 	else
 		window.open(href, target);
