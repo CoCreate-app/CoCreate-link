@@ -1,6 +1,6 @@
 {
   "name": "@cocreate/link",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "Data attributes which can be used for components in CoCreate framework combined as a group of attributes that dynamically change attributes & fetch custom data.",
   "keywords": [
     "link",
@@ -20,7 +20,9 @@
     "html5-framework",
     "javascript-framework"
   ],
-  "publishConfig": { "access": "public" },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "start": "npx webpack --config webpack.config.js",
     "build": "NODE_ENV=production npx webpack --config webpack.config.js",
@@ -34,7 +36,9 @@
   },
   "author": "CoCreate LLC",
   "license": "MIT",
-  "bugs": { "url": "https://github.com/CoCreate-app/CoCreate-link/issues" },
+  "bugs": {
+    "url": "https://github.com/CoCreate-app/CoCreate-link/issues"
+  },
   "homepage": "https://cocreate.app/docs/link",
   "funding": {
     "type": "GitHub Sponsors ❤",
