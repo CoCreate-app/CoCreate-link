@@ -1,3 +1,10 @@
+## [1.3.4](https://github.com/CoCreate-app/CoCreate-link/compare/v1.3.3...v1.3.4) (2023-04-11)
+
+
+### Bug Fixes
+
+* renamed domains to hosts ([5a7fc38](https://github.com/CoCreate-app/CoCreate-link/commit/5a7fc3863990ccc4cf961e96b0d42bea4765b550))
+
 ## [1.3.3](https://github.com/CoCreate-app/CoCreate-link/compare/v1.3.2...v1.3.3) (2023-03-30)
 
 
