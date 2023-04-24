@@ -1,3 +1,11 @@
+# [1.4.0](https://github.com/CoCreate-app/CoCreate-link/compare/v1.3.6...v1.4.0) (2023-04-24)
+
+
+### Features
+
+* added pwa manifest ([9370431](https://github.com/CoCreate-app/CoCreate-link/commit/937043184f7250f81c7f9010c5ed2f152c571957))
+* navigator.registerProtocolHandler ([e1cdf90](https://github.com/CoCreate-app/CoCreate-link/commit/e1cdf90dc29fd73588e8fb5d6a1004dbbd64df86))
+
 ## [1.3.6](https://github.com/CoCreate-app/CoCreate-link/compare/v1.3.5...v1.3.6) (2023-04-11)
 
 
