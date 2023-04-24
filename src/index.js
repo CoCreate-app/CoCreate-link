@@ -17,6 +17,7 @@ function linkEvent(event) {
 	if (!target) return;
 	if (target.hasAttribute('actions')) return;
 	if (target.closest('[actions]')) return;
+	
 	runLink(target, event);
 }
 
@@ -24,7 +25,7 @@ function linkEvent(event) {
 function runLink(target, event) {
 	if (!target || !document.link.islink || document.link.islink == 'false')
 		return;
-
+	navigator.registerProtocolHandler('web+tea', './?tea=%s')
 	const href = target.getAttribute('href');
 	if (href) {
 		if (event)
