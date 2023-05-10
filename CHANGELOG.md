@@ -1,3 +1,10 @@
+## [1.4.8](https://github.com/CoCreate-app/CoCreate-link/compare/v1.4.7...v1.4.8) (2023-05-10)
+
+
+### Bug Fixes
+
+* apikey renamed to key ([cabd342](https://github.com/CoCreate-app/CoCreate-link/commit/cabd342ee9dddff43d23f5e00950dee6049d9d48))
+
 ## [1.4.7](https://github.com/CoCreate-app/CoCreate-link/compare/v1.4.6...v1.4.7) (2023-05-06)
 
 
