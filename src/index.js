@@ -39,7 +39,7 @@ function openLink(link) {
 	let href = link.getAttribute('href');
 	let target = link.getAttribute('target');
 
-	// ToDo: attributes to set height, width, left, top, scrollbars, popup, noopener, noreferrer
+	// TODO: attributes to set height, width, left, top, scrollbars, popup, noopener, noreferrer
 	if (!target) 
 		window.open(href, '_self');
 	else if (target == "_window") 
@@ -48,7 +48,7 @@ function openLink(link) {
 		window.open(href, target);
 }
 
-// ToDo: apply queryDocumentSelector
+// TODO: apply queryDocumentSelector
 function getDocument(btn) {
 	let Document = document;
 	let targetSelector = btn.getAttribute('link-target');
