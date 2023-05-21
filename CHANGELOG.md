@@ -1,3 +1,10 @@
+## [1.4.10](https://github.com/CoCreate-app/CoCreate-link/compare/v1.4.9...v1.4.10) (2023-05-21)
+
+
+### Bug Fixes
+
+* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([edc307a](https://github.com/CoCreate-app/CoCreate-link/commit/edc307a09994591875dedca189b00d19b8ca34b0))
+
 ## [1.4.9](https://github.com/CoCreate-app/CoCreate-link/compare/v1.4.8...v1.4.9) (2023-05-19)
 
 
