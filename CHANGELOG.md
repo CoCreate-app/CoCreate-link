@@ -1,3 +1,10 @@
+## [1.4.11](https://github.com/CoCreate-app/CoCreate-link/compare/v1.4.10...v1.4.11) (2023-06-02)
+
+
+### Bug Fixes
+
+* format demo html ([03b083c](https://github.com/CoCreate-app/CoCreate-link/commit/03b083c8162c0fc5693c9cd7d3616fb3b8d211cf))
+
 ## [1.4.10](https://github.com/CoCreate-app/CoCreate-link/compare/v1.4.9...v1.4.10) (2023-05-21)
 
 
