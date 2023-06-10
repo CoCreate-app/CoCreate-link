@@ -1,3 +1,10 @@
+## [1.4.15](https://github.com/CoCreate-app/CoCreate-link/compare/v1.4.14...v1.4.15) (2023-06-10)
+
+
+### Bug Fixes
+
+* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([42146ca](https://github.com/CoCreate-app/CoCreate-link/commit/42146ca2d3f73bd37611833f9de265a5e89b76e3))
+
 ## [1.4.14](https://github.com/CoCreate-app/CoCreate-link/compare/v1.4.13...v1.4.14) (2023-06-04)
 
 
