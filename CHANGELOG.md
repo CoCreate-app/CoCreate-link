@@ -1,3 +1,10 @@
+## [1.4.25](https://github.com/CoCreate-app/CoCreate-link/compare/v1.4.24...v1.4.25) (2023-06-11)
+
+
+### Bug Fixes
+
+* testing workflow ([5104951](https://github.com/CoCreate-app/CoCreate-link/commit/5104951b98acd68be8143c2257a3fb4a9af93d41))
+
 ## [1.4.24](https://github.com/CoCreate-app/CoCreate-link/compare/v1.4.23...v1.4.24) (2023-06-11)
 
 
