@@ -1,3 +1,10 @@
+## [1.4.20](https://github.com/CoCreate-app/CoCreate-link/compare/v1.4.19...v1.4.20) (2023-06-11)
+
+
+### Bug Fixes
+
+* postintall error ([ee9791e](https://github.com/CoCreate-app/CoCreate-link/commit/ee9791eb624acc76900c7835222565d33fd63579))
+
 ## [1.4.19](https://github.com/CoCreate-app/CoCreate-link/compare/v1.4.18...v1.4.19) (2023-06-11)
 
 
