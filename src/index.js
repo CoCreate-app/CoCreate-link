@@ -51,7 +51,7 @@ function openLink(link) {
 // TODO: apply queryDocumentSelector
 function getDocument(btn) {
     let Document = document;
-    let targetSelector = btn.getAttribute('link-target');
+    let targetSelector = btn.getAttribute('link-selector');
     if (targetSelector) {
         if (targetSelector.indexOf(';') !== -1) {
             let documentSelector;
