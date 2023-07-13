@@ -18,11 +18,11 @@ function linkEvent(event) {
     if (target.hasAttribute('actions')) return;
     if (target.closest('[actions]')) return;
 
-    runLink(target, event);
+    open(target, event);
 }
 
 
-function runLink(target, event) {
+function open(target, event) {
     if (!target || !document.link.islink || document.link.islink == 'false')
         return;
     navigator.registerProtocolHandler('web+tea', './?tea=%s')
@@ -99,4 +99,4 @@ action.init({
 
 init();
 
-export default { runLink };
+export default { open };
