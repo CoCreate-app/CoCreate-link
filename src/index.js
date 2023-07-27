@@ -1,6 +1,6 @@
 /*global CoCreate*/
 import action from '@cocreate/actions';
-import { queryDocumentSelector } from '@cocreate/utils';
+import { queryElements } from '@cocreate/utils';
 
 function init() {
     document.link = { islink: 'true' };
@@ -48,7 +48,7 @@ function openLink(link) {
         window.open(href, target);
 }
 
-// TODO: apply queryDocumentSelector
+// TODO: apply queryElements
 function getDocument(btn) {
     let Document = document;
     let targetSelector = btn.getAttribute('link-selector');
