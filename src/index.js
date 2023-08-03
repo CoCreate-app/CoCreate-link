@@ -1,5 +1,5 @@
 /*global CoCreate*/
-import action from '@cocreate/actions';
+import Action from '@cocreate/actions';
 import { queryElements } from '@cocreate/utils';
 
 function init() {
@@ -15,7 +15,7 @@ function linkEvent(event) {
         event.preventDefault();
     }
     if (!target) return;
-    if (target.hasAttribute('actions')) return;
+    // if (target.hasAttribute('actions')) return;
     if (target.closest('[actions]')) return;
 
     open(target, event);
@@ -48,54 +48,51 @@ function openLink(link) {
         window.open(href, target);
 }
 
-// TODO: apply queryElements
-function getDocument(btn) {
-    let Document = document;
-    let targetSelector = btn.getAttribute('link-selector');
-    if (targetSelector) {
-        if (targetSelector.indexOf(';') !== -1) {
-            let documentSelector;
-            [documentSelector, targetSelector] = targetSelector.split(';');
-            let frame = document.querySelector(documentSelector);
-            Document = frame.contentDocument;
-        }
-    }
-    return Document;
-}
-
+// TODO: Document should be element and attribute link="true | false" should be used
 function disableLinks(btn) {
-    let document = getDocument(btn);
-    document.link = { link: 'false' };
-    document.removeEventListener("click", linkEvent, true);
-    document.addEventListener("click", preventDefault, true);
+    let Document = queryElements({ element: btn, prefix: 'link' });
+    if (!Document)
+        Document = [document]
+    for (let i = 0; i < Document.length; i++) {
+        if (Document.nodeType !== 9)
+            Document = Document.document
+        Document.link = { link: 'false' };
+        Document.removeEventListener("click", linkEvent, true);
+        Document.addEventListener("click", preventDefault, true);
+    }
 }
 
 function enableLinks(btn) {
-    let document = getDocument(btn);
-    document.link = { link: 'true' };
-    document.removeEventListener("click", preventDefault, true);
-    document.addEventListener("click", linkEvent, true);
+    let Document = queryElements({ element: btn, prefix: 'link' });
+    if (!Document)
+        Document = [document]
+    for (let i = 0; i < Document.length; i++) {
+        Document.link = { link: 'true' };
+        Document.removeEventListener("click", preventDefault, true);
+        Document.addEventListener("click", linkEvent, true);
+    }
 }
 
 function preventDefault(e) {
     e.preventDefault();
 }
 
-action.init({
-    name: "disableLinks",
-    endEvent: "disableLinks",
-    callback: (data) => {
-        disableLinks(data.element);
+Action.init(
+    {
+        name: "disableLinks",
+        endEvent: "disableLinks",
+        callback: (data) => {
+            disableLinks(data.element);
+        }
+    },
+    {
+        name: "enableLinks",
+        endEvent: "enableLinks",
+        callback: (data) => {
+            enableLinks(data.element);
+        }
     }
-});
-
-action.init({
-    name: "enableLinks",
-    endEvent: "enableLinks",
-    callback: (data) => {
-        enableLinks(data.element);
-    }
-});
+);
 
 init();
 
