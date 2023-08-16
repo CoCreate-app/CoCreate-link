@@ -1,3 +1,21 @@
+# [1.5.0](https://github.com/CoCreate-app/CoCreate-link/compare/v1.4.28...v1.5.0) (2023-08-16)
+
+
+### Bug Fixes
+
+* crud attributes renamed ([04b3e9e](https://github.com/CoCreate-app/CoCreate-link/commit/04b3e9eb1addab054152ec5be5e98ef645abceb1))
+* replace -target -selector ([e0146a7](https://github.com/CoCreate-app/CoCreate-link/commit/e0146a72c98e70820e3fe8614f84db31658d8ab0))
+* runLink renamed to open ([f27e07d](https://github.com/CoCreate-app/CoCreate-link/commit/f27e07d95f74c9aa9003fe87807ff7f34490f3b8))
+* updated actions callback data object ([9db394f](https://github.com/CoCreate-app/CoCreate-link/commit/9db394fdc5b33450b57099958f45ad8c4219a39c))
+* webpack.config and package.json make use of mode=production instead of process.env ([0db076b](https://github.com/CoCreate-app/CoCreate-link/commit/0db076b49f1edc817f62ff746180d814b12b5a98))
+
+
+### Features
+
+* name attribute and variable renamed to key ([40ab396](https://github.com/CoCreate-app/CoCreate-link/commit/40ab396793344841f601fb1cb22e8cce987f020d))
+* Update import statement to use `queryElements` instead of `queryDocumentSelector`. Also update the comment to reflect the change. ([4335394](https://github.com/CoCreate-app/CoCreate-link/commit/4335394c5270fa713b85f4b686aab9b57173b04c))
+* update template_id to render-selector attribute. update filter attributes to filter selector-attributes ([107ffc3](https://github.com/CoCreate-app/CoCreate-link/commit/107ffc3e3c19bfad51487bf664c7c1f087bcfc30))
+
 ## [1.4.28](https://github.com/CoCreate-app/CoCreate-link/compare/v1.4.27...v1.4.28) (2023-06-14)
 
 
