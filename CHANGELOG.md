@@ -1,3 +1,11 @@
+## [1.7.2](https://github.com/CoCreate-app/CoCreate-link/compare/v1.7.1...v1.7.2) (2023-09-18)
+
+
+### Bug Fixes
+
+*  Add path and pathname ([bca610a](https://github.com/CoCreate-app/CoCreate-link/commit/bca610ae59d5cf20f911bd85c449f4da73119898))
+* Update CoCreate depndencies to latest versions ([31eb6a3](https://github.com/CoCreate-app/CoCreate-link/commit/31eb6a39130e281350dede547a882fd458156062))
+
 ## [1.7.1](https://github.com/CoCreate-app/CoCreate-link/compare/v1.7.0...v1.7.1) (2023-08-21)
 
 
