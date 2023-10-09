@@ -1,3 +1,11 @@
+## [1.8.1](https://github.com/CoCreate-app/CoCreate-link/compare/v1.8.0...v1.8.1) (2023-10-09)
+
+
+### Bug Fixes
+
+* bump cocreate dependency versions ([e67296c](https://github.com/CoCreate-app/CoCreate-link/commit/e67296cefb2a5ee2b6b96f877b657c4f31a13501))
+* bump dependencies ([bdf12c5](https://github.com/CoCreate-app/CoCreate-link/commit/bdf12c5d8981caf2713eb81ecbd677d7b24096f6))
+
 # [1.8.0](https://github.com/CoCreate-app/CoCreate-link/compare/v1.7.2...v1.8.0) (2023-09-19)
 
 
