@@ -25,7 +25,7 @@ function linkEvent(event) {
 function open(target, event) {
     if (!target || !document.link.islink || document.link.islink == 'false')
         return;
-    navigator.registerProtocolHandler('web+tea', './?tea=%s')
+    // navigator.registerProtocolHandler('web+tea', './?tea=%s')
     const href = target.getAttribute('href');
     if (href) {
         if (event)
