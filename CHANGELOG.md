@@ -1,3 +1,11 @@
+## [1.8.4](https://github.com/CoCreate-app/CoCreate-link/compare/v1.8.3...v1.8.4) (2023-10-14)
+
+
+### Bug Fixes
+
+* bump dependencies ([d2ec585](https://github.com/CoCreate-app/CoCreate-link/commit/d2ec585f75a99572376831a606377e17cbeb66f8))
+* commented navigator.registerProtocolHandler test ([7b207a7](https://github.com/CoCreate-app/CoCreate-link/commit/7b207a70c436c5b988a04a0d1473af6c27441592))
+
 ## [1.8.3](https://github.com/CoCreate-app/CoCreate-link/compare/v1.8.2...v1.8.3) (2023-10-09)
 
 
