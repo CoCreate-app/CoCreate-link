@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/CoCreate-app/CoCreate-link/compare/v1.8.9...v1.9.0) (2023-11-19)
+
+
+### Features
+
+* update dependecies for th latest features and bug fixes ([71299f6](https://github.com/CoCreate-app/CoCreate-link/commit/71299f6c5d1eed74d284ed726519c772cd5350ac))
+
 ## [1.8.9](https://github.com/CoCreate-app/CoCreate-link/compare/v1.8.8...v1.8.9) (2023-11-16)
 
 
