@@ -36,17 +36,40 @@ function open(target, event) {
 }
 
 function openLink(link) {
+    let currentUrl = window.location.href;
     let href = link.getAttribute('href');
     let target = link.getAttribute('target');
+    let title = link.getAttribute('title') || '';
+    let passedAttributes = localStorage.getItem('passedAttributes') || '';
 
-    // TODO: attributes to set height, width, left, top, scrollbars, popup, noopener, noreferrer
-    if (!target)
-        window.open(href, '_self');
-    else if (target == "_window")
+    // Push the current state, not the state we're navigating to
+    history.pushState({ passedAttributes: passedAttributes, title: title, url: currentUrl }, title, currentUrl);
+
+    if (!target || target === '_self') {
+        if (currentUrl !== href)
+            location.href = href; // Navigate within the same tab
+    } else if (target === "_window") {
         window.open(href, '_blank', 'location=yes,height=570,width=520,scrollbars=yes,status=yes');
-    else
-        window.open(href, target);
+    } else {
+        window.open(href, target); // Open in a specified target
+    }
 }
+
+window.addEventListener('popstate', function (event) {
+    if (event.state) {
+        if (event.state.passedAttributes) {
+            localStorage.setItem('passedAttributes', event.state.passedAttributes);
+            let elements = document.querySelectorAll('[pass_id]')
+            CoCreate.pass.initElements(elements)
+        }
+
+        if (event.state.url && event.state.url !== window.location.href) {
+            location.href = event.state.url; // Navigate if the URL is different
+        } else if (event.state.title) {
+            document.title = event.state.title; // Update the title if provided
+        }
+    }
+});
 
 // TODO: Document should be element and attribute link="true | false" should be used
 function disableLinks(btn) {
@@ -76,6 +99,7 @@ function enableLinks(btn) {
 function preventDefault(e) {
     e.preventDefault();
 }
+
 
 Action.init(
     {
