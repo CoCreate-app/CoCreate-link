@@ -40,10 +40,10 @@ function openLink(link) {
     let href = link.getAttribute('href');
     let target = link.getAttribute('target');
     let title = link.getAttribute('title') || '';
-    let passedAttributes = localStorage.getItem('passedAttributes') || '';
+    let statedAttributes = localStorage.getItem('statedAttributes') || '';
 
     // Push the current state, not the state we're navigating to
-    history.pushState({ passedAttributes: passedAttributes, title: title, url: currentUrl }, title, currentUrl);
+    history.pushState({ statedAttributes: statedAttributes, title: title, url: currentUrl }, title, currentUrl);
 
     if (!target || target === '_self') {
         if (currentUrl !== href)
@@ -57,10 +57,10 @@ function openLink(link) {
 
 window.addEventListener('popstate', function (event) {
     if (event.state) {
-        if (event.state.passedAttributes) {
-            localStorage.setItem('passedAttributes', event.state.passedAttributes);
-            let elements = document.querySelectorAll('[pass_id]')
-            CoCreate.pass.initElements(elements)
+        if (event.state.statedAttributes) {
+            localStorage.setItem('statedAttributes', event.state.statedAttributes);
+            let elements = document.querySelectorAll('[state_id]')
+            CoCreate.state.initElements(elements)
         }
 
         if (event.state.url && event.state.url !== window.location.href) {
