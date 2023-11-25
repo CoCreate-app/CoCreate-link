@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/CoCreate-app/CoCreate-link/compare/v1.10.0...v1.11.0) (2023-11-25)
+
+
+### Features
+
+* upgrade dependencies for latest features and fixes ([1e37541](https://github.com/CoCreate-app/CoCreate-link/commit/1e3754155ba23958ddd45ca1c407d1f38a8994c1))
+
 # [1.10.0](https://github.com/CoCreate-app/CoCreate-link/compare/v1.9.0...v1.10.0) (2023-11-25)
 
 
