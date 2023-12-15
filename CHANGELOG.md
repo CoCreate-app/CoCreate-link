@@ -1,3 +1,10 @@
+## [1.11.1](https://github.com/CoCreate-app/CoCreate-link/compare/v1.11.0...v1.11.1) (2023-12-15)
+
+
+### Bug Fixes
+
+* button handling ([1d9d2de](https://github.com/CoCreate-app/CoCreate-link/commit/1d9d2de5f86cbeb4fd63ad39a3029716252e1aab))
+
 # [1.11.0](https://github.com/CoCreate-app/CoCreate-link/compare/v1.10.0...v1.11.0) (2023-11-25)
 
 
