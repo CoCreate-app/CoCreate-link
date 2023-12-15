@@ -11,11 +11,11 @@ function linkEvent(event) {
     const target = event.srcElement.closest('[href], [target]');
     if (target && target.download)
         return
+    if (!target) return;
+
     if (event.target.closest('button') && !target) {
         event.preventDefault();
     }
-    if (!target) return;
-    // if (target.hasAttribute('actions')) return;
     if (target.closest('[actions]')) return;
 
     open(target, event);
