@@ -8,15 +8,15 @@ function init() {
 }
 
 function linkEvent(event) {
-    const target = event.srcElement.closest('[href], [target]');
+    const target = event.target.closest('[href], [target]');
     if (target && target.download)
         return
-    if (!target) return;
 
-    if (event.target.closest('button') && !target) {
+    if (!target && (event.target.tagName === 'A' || event.target.closest('button'))) {
         event.preventDefault();
     }
-    if (target.closest('[actions]')) return;
+
+    if (!target || target.closest('[actions]')) return;
 
     open(target, event);
 }
