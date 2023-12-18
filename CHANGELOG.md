@@ -1,3 +1,10 @@
+## [1.11.2](https://github.com/CoCreate-app/CoCreate-link/compare/v1.11.1...v1.11.2) (2023-12-18)
+
+
+### Bug Fixes
+
+* improved preventDefault conditions ([5acb7fd](https://github.com/CoCreate-app/CoCreate-link/commit/5acb7fda366368c284617c1456561a5e3cfdda3d))
+
 ## [1.11.1](https://github.com/CoCreate-app/CoCreate-link/compare/v1.11.0...v1.11.1) (2023-12-15)
 
 
