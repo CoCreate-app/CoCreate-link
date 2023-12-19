@@ -12,7 +12,7 @@ function linkEvent(event) {
     if (target && target.download)
         return
 
-    if (!target && (event.target.tagName === 'A' || event.target.closest('button'))) {
+    if (!target && (event.target.tagName === 'A' || event.target.closest('button' && event.target.type !== 'submit'))) {
         event.preventDefault();
     }
 
