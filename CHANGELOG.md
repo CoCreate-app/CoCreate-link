@@ -1,3 +1,10 @@
+## [1.11.4](https://github.com/CoCreate-app/CoCreate-link/compare/v1.11.3...v1.11.4) (2023-12-21)
+
+
+### Bug Fixes
+
+* condition for type="submit" ([4b45941](https://github.com/CoCreate-app/CoCreate-link/commit/4b45941a0f727ed7beb9548a7e3d9e4f4fcb3859))
+
 ## [1.11.3](https://github.com/CoCreate-app/CoCreate-link/compare/v1.11.2...v1.11.3) (2023-12-20)
 
 
