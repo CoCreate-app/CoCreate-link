@@ -37,18 +37,19 @@ function open(target, event) {
 }
 
 function openLink(link) {
-    let currentUrl = window.location.href;
     let href = link.getAttribute('href');
     let target = link.getAttribute('target');
-    let title = link.getAttribute('title') || '';
-    let statedAttributes = localStorage.getItem('statedAttributes') || '';
-
-    // Push the current state, not the state we're navigating to
-    history.pushState({ statedAttributes, title, url: currentUrl }, title, currentUrl);
 
     if (!target || target === '_self') {
-        if (currentUrl !== href)
+        let currentUrl = window.location.href;
+        if (currentUrl !== href) {
+            let title = link.getAttribute('title') || '';
+            let statedAttributes = localStorage.getItem('statedAttributes') || '';
+
+            // Push the current state, not the state we're navigating to
+            history.pushState({ statedAttributes, title, url: currentUrl }, title, currentUrl);
             location.href = href; // Navigate within the same tab
+        }
     } else if (target === "_window") {
         window.open(href, '_blank', 'location=yes,height=570,width=520,scrollbars=yes,status=yes');
     } else {
