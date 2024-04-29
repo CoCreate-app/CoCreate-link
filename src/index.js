@@ -41,19 +41,17 @@ function openLink(link) {
     let target = link.getAttribute('target');
 
     if (!target || target === '_self') {
-        let currentUrl = window.location.href;
-        if (currentUrl !== href) {
-            let title = link.getAttribute('title') || '';
-            let statedAttributes = localStorage.getItem('statedAttributes') || '';
+        // Normalize both URLs to compare paths in a uniform way
+        const currentPath = new URL(location.href).pathname.replace('/index.html', '/');
+        const targetPath = new URL(href, location.href).pathname.replace('/index.html', '/');
 
-            // Push the current state, not the state we're navigating to
-            history.pushState({ statedAttributes, title, url: currentUrl }, title, currentUrl);
-            location.href = href; // Navigate within the same tab
+        if (currentPath !== targetPath) {
+            location.href = href; // Open in the same tab
         }
     } else if (target === "_window") {
-        window.open(href, '_blank', 'location=yes,height=570,width=520,scrollbars=yes,status=yes');
+        window.open(href, '_blank', 'location=yes,height=570,width=520,scrollbars=yes,status=yes'); // Open in a window
     } else {
-        window.open(href, target); // Open in a specified target
+        window.open(href, target); // Open in a new tab or specified target
     }
 }
 
