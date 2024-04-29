@@ -1,3 +1,12 @@
+## [1.11.5](https://github.com/CoCreate-app/CoCreate-link/compare/v1.11.4...v1.11.5) (2024-04-29)
+
+
+### Bug Fixes
+
+* check if url is not the same as current prior to applying location.href. Removed pushState handled by '@cocraete/state' ([7ed553c](https://github.com/CoCreate-app/CoCreate-link/commit/7ed553c1e97e3b05dd15a8dbe86313f76e493c8c))
+* openLink push state on _self only ([6279669](https://github.com/CoCreate-app/CoCreate-link/commit/6279669c02a963c39dadae07fc434a80e492e9e1))
+* relocated popstate event to state module ([58f0e4c](https://github.com/CoCreate-app/CoCreate-link/commit/58f0e4c11e651a29f39ea68fae1a93c10e9b9cdb))
+
 ## [1.11.4](https://github.com/CoCreate-app/CoCreate-link/compare/v1.11.3...v1.11.4) (2023-12-21)
 
 
