@@ -42,10 +42,13 @@ function openLink(link) {
 
     if (!target || target === '_self') {
         // Normalize both URLs to compare paths in a uniform way
-        const currentPath = new URL(location.href).pathname.replace('/index.html', '/');
-        const targetPath = new URL(href, location.href).pathname.replace('/index.html', '/');
+        const currentUrl = new URL(location.href);
+        const targetUrl = new URL(href, location.href);
 
-        if (currentPath !== targetPath) {
+        const currentPath = currentUrl.pathname.replace('/index.html', '/');
+        const targetPath = targetUrl.pathname.replace('/index.html', '/');
+
+        if (currentPath !== targetPath || currentUrl.hash !== targetUrl.hash) {
             location.href = href; // Open in the same tab
         }
     } else if (target === "_window") {
