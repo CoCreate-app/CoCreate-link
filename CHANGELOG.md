@@ -1,3 +1,12 @@
+## [1.11.7](https://github.com/CoCreate-app/CoCreate-link/compare/v1.11.6...v1.11.7) (2024-06-12)
+
+
+### Bug Fixes
+
+* bump cocreate dependencies ([020da6b](https://github.com/CoCreate-app/CoCreate-link/commit/020da6bce91ec64c0ec9bc257a597167aee5af3b))
+* comapre url hash ([3c93317](https://github.com/CoCreate-app/CoCreate-link/commit/3c933179e1d6776bce760b0331d68ed6a409a38d))
+* svg icon class ([cba672d](https://github.com/CoCreate-app/CoCreate-link/commit/cba672d9fec9b6eb37a7a6a914c13319b46ed555))
+
 ## [1.11.6](https://github.com/CoCreate-app/CoCreate-link/compare/v1.11.5...v1.11.6) (2024-04-29)
 
 
