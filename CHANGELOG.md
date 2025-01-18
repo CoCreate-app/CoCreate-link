@@ -1,3 +1,10 @@
+## [1.12.1](https://github.com/CoCreate-app/CoCreate-link/compare/v1.12.0...v1.12.1) (2025-01-18)
+
+
+### Bug Fixes
+
+* filter-query-key ([b54db2f](https://github.com/CoCreate-app/CoCreate-link/commit/b54db2fbdfc16aa788ee58faa4e2a3f327f32675))
+
 # [1.12.0](https://github.com/CoCreate-app/CoCreate-link/compare/v1.11.7...v1.12.0) (2024-11-04)
 
 
